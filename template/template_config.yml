@@ -1,0 +1,27 @@
+info: |
+  Recreate with clickme multiline with generic time series
+
+scripts:
+  - http://d3js.org/d3.v3.min.js
+
+styles:
+  - original_style.css
+  
+data_names:
+  required:
+  optional:  
+
+params: 
+  width: 960
+  height: 500
+  title:
+  x_axis_location:
+
+
+require_packages:
+  - df2json
+  - reshape2
+
+require_server: no
+
+original_url: http://bl.ocks.org/timelyportfolio/5149102
